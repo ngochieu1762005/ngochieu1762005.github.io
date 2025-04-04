@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Moodle Style</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Moodle-style Quiz</h1>
+    <div id="timer">
+      <span>Time left: <span id="time-left">50:00</span></span>
+    </div>
+    <form id="quiz-form">
+      <div id="questions-container"></div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="results" style="display: none;">
+      <h2>Your Results</h2>
+      <p id="score"></p>
+      <p id="correct-answers"></p>
+    </div>
+  </div>
+  
+  <script src="quiz.js"></script>
+</body>
+</html>
